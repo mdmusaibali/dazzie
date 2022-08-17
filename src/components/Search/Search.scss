@@ -1,0 +1,33 @@
+@import "./../../sass/abstracts/variables";
+.Search {
+  padding: 2.4rem 2.4rem 1.5rem 2.4rem;
+
+  &__input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+
+    &::placeholder {
+      color: $color-gray-dark;
+      letter-spacing: 0.4px;
+    }
+
+    padding: 0.6rem 0;
+    &:focus {
+      outline: none;
+    }
+
+    &--wrapper {
+      background-color: $color-gray-light;
+      border-radius: 0.6rem;
+      display: flex;
+      align-items: center;
+      padding: 0.6rem 1.5rem;
+
+      &-icon {
+        margin-right: 1rem;
+      }
+    }
+  }
+}

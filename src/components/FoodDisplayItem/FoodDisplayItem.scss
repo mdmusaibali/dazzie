@@ -1,0 +1,35 @@
+@import "./../../sass/abstracts/variables";
+.FoodDisplayItem {
+  border: 1px solid $color-gray-mid;
+  border-radius: 1rem;
+  padding: 0.6rem 1rem 1rem 1rem;
+
+  &__image {
+    height: 18rem;
+    background-color: $color-gray-mid;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__name {
+    font-size: 1.6rem;
+    color: $color-eerie-black;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+
+  &__price {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-left: 1rem;
+    color: $color-green;
+  }
+}
+
+.FoodTrending {
+  border: 1px solid $color-blue;
+  border-radius: 1rem;
+  padding: 0.6rem 1rem;
+}

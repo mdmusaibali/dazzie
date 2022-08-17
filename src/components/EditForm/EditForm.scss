@@ -1,0 +1,120 @@
+@import "./../../sass/abstracts/variables";
+.EditForm {
+  padding: 2rem;
+
+  &__product {
+    &--upload {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      &-image {
+        height: 10rem;
+        width: 10rem;
+        background-color: $color-gray-mid;
+        border-radius: 0.6rem;
+      }
+      &-actions {
+        &-button {
+          padding: 1rem 2.5rem;
+          background-color: $color-blue;
+          align-self: flex-start;
+          color: $color-white;
+          font-size: 1.5rem;
+          font-weight: 600;
+          border-radius: 0.6rem;
+          margin-top: 2rem;
+          cursor: pointer;
+        }
+        &-label {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          p {
+            font-size: 1.65rem;
+            font-weight: 800;
+          }
+        }
+        &-upload {
+          display: none;
+        }
+      }
+    }
+
+    &--category {
+      &-select {
+        padding: 1.8rem 2.2rem;
+        background-color: $color-gray-light;
+        border-radius: 0.6rem;
+        font-size: 1.6rem;
+        border: 1px solid $color-gray-mid;
+        font-family: inherit;
+        margin-bottom: 2rem;
+        width: 100%;
+        &-label {
+          font-size: 1.65rem;
+          font-weight: 800;
+          margin-bottom: 0.8rem;
+          margin-left: 2rem;
+          display: inline-block;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    &--description {
+      &-label {
+        font-size: 1.65rem;
+        font-weight: 800;
+        margin-bottom: 0.8rem;
+        margin-left: 2rem;
+        display: inline-block;
+      }
+      &-textarea {
+        display: block;
+        width: 100%;
+        border: 2px solid $color-gray-mid;
+        background-color: $color-gray-light;
+        border-radius: 0.6rem;
+        padding: 1.8rem 2.2rem;
+        font-family: inherit;
+        font-size: 1.65rem;
+        margin-bottom: 2rem;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    &--submit {
+      &-button {
+        padding: 1.4rem 2.4rem;
+        background-color: $color-blue;
+        border: none;
+        border-radius: 0.6rem;
+        color: $color-white;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: inherit;
+        margin-right: 1rem;
+        cursor: pointer;
+      }
+    }
+    &--cancel {
+      &-button {
+        padding: 1.4rem 2.4rem;
+        background-color: $color-white;
+        border: none;
+        border-radius: 0.6rem;
+        color: $color-gray-dark;
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-family: inherit;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+      }
+    }
+  }
+}

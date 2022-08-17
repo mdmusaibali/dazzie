@@ -1,0 +1,13 @@
+.FoodDisplayItems {
+  margin-bottom: 2.5rem;
+  &__grid {
+    display: grid;
+    gap: 2.4rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &__foodType {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
