@@ -11,6 +11,7 @@ export const EditForm = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
+    //This object can be used to send as entity-body of a POST request to add new product to our existing database/firebase storage.
     const newProduct = {
       id: idRef.current.value,
       file: fileRef.current.value,
