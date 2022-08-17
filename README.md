@@ -10,4 +10,6 @@ iii)\_typography.scss: contains typography styles such as font family, base font
 
 iv) Each component has it's style file associated with it with the same name. This is done for easy debugging
 
-###
+### Layout
+
+layout.png file show the uppermost basic layout of the web page.
