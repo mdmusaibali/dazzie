@@ -9,29 +9,88 @@ const DUMMY_FOOD_ITEMS_LIST = [
   {
     foodType: "Food",
     foodItems: [
-      { name: "Sashimi", price: 22, trending: false },
-      { name: "Unagi - Grilled Eel", price: 22, trending: true },
-      { name: "Soba - Buckwheat Noodles", price: 22, trending: true },
-      { name: "Onigiri - Rice Balls", price: 22, trending: false },
-      { name: "Yakitori - Grilled Chicken", price: 22, trending: true },
-      { name: "Miso Soup", price: 22, trending: false },
+      {
+        name: "Sashimi",
+        price: 22,
+        trending: false,
+        imageLoc: "./asset/img/Sashimi.jpg",
+      },
+      {
+        name: "Unagi - Grilled Eel",
+        price: 22,
+        trending: true,
+        imageLoc: "./asset/img/unagi.jpg",
+      },
+      {
+        name: "Soba - Buckwheat Noodles",
+        price: 22,
+        trending: true,
+        imageLoc: "./asset/img/soba.jpg",
+      },
+      {
+        name: "Onigiri - Rice Balls",
+        price: 22,
+        trending: false,
+        imageLoc: "./asset/img/onigiri.jpg",
+      },
+      {
+        name: "Yakitori - Grilled Chicken",
+        price: 22,
+        trending: true,
+        imageLoc: "./asset/img/Yakitori.jpg",
+      },
+      {
+        name: "Miso Soup",
+        price: 22,
+        trending: false,
+        imageLoc: "./asset/img/Miso Soup.jpg",
+      },
     ],
   },
   {
     foodType: "Drinks",
     foodItems: [
-      { name: "Amazake", price: 22, trending: false },
-      { name: "Royal Minl Tea", price: 22, trending: false },
-      { name: "Flavored Soyamilk Drinks", price: 22, trending: true },
+      {
+        name: "Amazake",
+        price: 22,
+        trending: false,
+        imageLoc: "./asset/img/amazake.jpg",
+      },
+      {
+        name: "Royal Milk Tea",
+        price: 22,
+        trending: false,
+        imageLoc: "./asset/img/Royal Milk Tea.jpg",
+      },
+      {
+        name: "Flavored Soyamilk Drinks",
+        price: 22,
+        trending: true,
+        imageLoc: "./asset/img/soya milk.jpg",
+      },
     ],
   },
   {
     foodType: "Snacks",
-    foodItems: [{ name: "Egg puff", price: 1, trending: true }],
+    foodItems: [
+      {
+        name: "Egg puff",
+        price: 1,
+        trending: true,
+        imageLoc: "./asset/img/egg puffs.jpg",
+      },
+    ],
   },
   {
     foodType: "Packages",
-    foodItems: [{ name: "Sashimi + Amazake", price: 44, trending: false }],
+    foodItems: [
+      {
+        name: "Sashimi + Amazake",
+        price: 44,
+        trending: false,
+        imageLoc: "./asset/img/combo.jpg",
+      },
+    ],
   },
 ];
 
