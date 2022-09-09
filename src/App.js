@@ -8,7 +8,6 @@ function App() {
       <Header />
       {/* Main: Component with navigation and various pages  */}
       <Main />
-      {/* {TEST} */}
     </div>
   );
 }
