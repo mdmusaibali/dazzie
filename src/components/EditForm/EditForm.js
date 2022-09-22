@@ -8,6 +8,7 @@ export const EditForm = () => {
   const productCategoryRef = useRef();
   const productPriceRef = useRef();
   const productDescriptionRef = useRef();
+  // MASTER
 
   const submitHandler = (e) => {
     e.preventDefault();
